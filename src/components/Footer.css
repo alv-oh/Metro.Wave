@@ -1,0 +1,33 @@
+/* General Footer Styling */
+.footer {
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  border-top: 1px solid #444;
+}
+
+.footer h5 {
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.footer p {
+  color: #aaa;
+}
+
+.footer-link {
+  color: #aaa;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #fff;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 1rem;
+}
+

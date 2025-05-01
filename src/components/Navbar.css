@@ -1,0 +1,47 @@
+/* General Navbar Styling */
+.navbar {
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.navbar-brand {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.nav-link {
+  padding: 0.5rem 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ff3e3e; /* Nike-like hover effect */
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.btn-outline-dark {
+  border-color: #000;
+  color: #000;
+}
+
+.btn-outline-dark:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.btn-dark {
+  background-color: #000;
+  color: #fff;
+}
+
+.btn-dark:hover {
+  background-color: #333;
+}
