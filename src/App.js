@@ -3,6 +3,7 @@ import {BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap/dist/js/bootstrap.min.js"
 import './App.css';
+import React from 'react';
 import SignUp from './components/SignUp';
 import SignIn from './components/SignIn';
 import GetProducts from './components/GetProducts';
@@ -11,6 +12,7 @@ import SingleProduct from './components/SingleProduct';
 import AboutUs from './components/AboutUs';
 import Reviews from './components/Reviews';
 import Categories from './components/Categories';
+import Chat from './components/Chat';
 
 function App() {
   return (
@@ -24,8 +26,9 @@ function App() {
           <Route path='/addproduct' element={<AddProducts/>} />
           <Route path='/singleproduct' element={<SingleProduct/>}/>
           <Route path='/aboutus' element={<AboutUs/>} />
-            <Route path='/categories' element={<Categories/>} />
-            <Route path='/reviews' element={<Reviews/>} />
+          <Route path='/categories' element={<Categories/>} />
+          <Route path='/reviews' element={<Reviews/>} />
+          <Route path='/chat' element={<Chat/>}/>
         </Routes>
   
       </div>
