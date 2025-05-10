@@ -3,6 +3,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 import Footer from "./Footer";
+import Navbar from "./Navbar";
 
 const SignUp = () => {
 
@@ -50,7 +51,8 @@ const SignUp = () => {
 
     return ( 
         <div className=" m-4 row justify-content-center">
-            <h1><b><u>Welcome</u></b></h1><br /><br /><hr />
+            <Navbar/>
+            <h1 className="mt-3"><b><u>Welcome</u></b></h1><br /><br /><hr />
         <div className="">
             <b className="text-warning">{loading}</b>
             <b className="text-success">{success}</b>

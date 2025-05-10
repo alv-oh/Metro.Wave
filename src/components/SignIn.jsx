@@ -2,6 +2,7 @@ import axios from "axios";
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import Footer from "./Footer";
+import Navbar from "./Navbar";
 
 const SignIn = () => {
     let [username, setUsername] = useState("");
@@ -43,7 +44,8 @@ const SignIn = () => {
 
     return (
         <div className="mt-4 row justify-content-center">
-            <h1><b><u>You've Come Back</u></b></h1><br /><br /><hr />
+            <Navbar />
+            <h1 className="mt-3"><b><u>You've Come Back</u></b></h1><br /><br /><hr />
             <div className="row mt-4 col-md-8 card shadow">
                 <b className="text-warning">{loading}</b>
                 <b className="text-danger">{error}</b>
