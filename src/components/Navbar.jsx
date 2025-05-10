@@ -19,7 +19,6 @@ const Navbar = () => {
           MetroWave
         </Link>
 
-        {/* Toggler for mobile view */}
         <button
           className="navbar-toggler"
           type="button"
@@ -32,7 +31,6 @@ const Navbar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        {/* Navbar Links */}
         <div className="collapse navbar-collapse" id="navbarContent">
           <ul className="navbar-nav mx-auto">
             <li className="nav-item">
@@ -57,7 +55,6 @@ const Navbar = () => {
             </li>
           </ul>
 
-          {/* User Actions */}
           <div className="navbar-nav ms-auto">
             {user ? (
               <>

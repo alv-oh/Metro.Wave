@@ -26,7 +26,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="footer bg-dark text-light py-5">
+    <footer className="footer bg-dark text-light py-5 mt-5">
     <div>
       {/* New Review/Message Box */}
       <div className="row mt-4">
