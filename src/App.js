@@ -12,7 +12,7 @@ import SingleProduct from './components/SingleProduct';
 import AboutUs from './components/AboutUs';
 import Reviews from './components/Reviews';
 import Categories from './components/Categories';
-import Chat from './components/Chat';
+
 
 function App() {
   return (
@@ -28,7 +28,6 @@ function App() {
           <Route path='/aboutus' element={<AboutUs/>} />
           <Route path='/categories' element={<Categories/>} />
           <Route path='/reviews' element={<Reviews/>} />
-          <Route path='/chat' element={<Chat/>}/>
         </Routes>
   
       </div>
